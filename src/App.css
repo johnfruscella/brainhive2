@@ -3,6 +3,7 @@
 }
 
 .App-logo {
+  
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,6 +15,7 @@
 }
 
 .App-header {
+  
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -46,10 +48,14 @@
   max-width: 600px;
   width: 80%;
   padding: 0 8px;
-  background-color: #f7f7f7;
+  background-color: #918d8d;
+}
+.box:hover {
+  box-shadow: 15px 9px 15px black;
 }
 
 .resourceList {
+  box-shadow: 1px 10px 20px #000000;
   margin: 0 8%;
   display: flex;
   flex-direction: row;
@@ -61,12 +67,12 @@
   display: flex;
   padding-left: 2rem;
   margin-bottom: 1.5rem;
-  background-color: seagreen;
+  background-color: #ffee7d
 }
 
 .title {
   font-size: 3rem;
-  font-family: cursive;
+  font-family: 'Indie Flower', cursive;
   font-weight: bold;
   text-shadow: 1px 8px 16px black;
   color: black;
